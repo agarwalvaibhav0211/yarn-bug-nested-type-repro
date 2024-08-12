@@ -1,0 +1,13 @@
+{
+  "name": "lib1",
+  "packageManager": "yarn@4.4.0",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "lib2": "workspace:^"
+  }
+}

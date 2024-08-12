@@ -1,0 +1,13 @@
+{
+  "name": "lib2",
+  "packageManager": "yarn@4.4.0",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

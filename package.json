@@ -1,0 +1,12 @@
+{
+  "name": "yarn-bug-nested-type-repro",
+  "packageManager": "yarn@4.4.0",
+  "workspaces": [
+    "main",
+    "lib1",
+    "lib2"
+  ],
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
